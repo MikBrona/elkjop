@@ -1,0 +1,169 @@
+body {
+	background-color: #262453;
+	color: white;
+	font-family: 'Comfortaa';
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+#desktop {
+	margin-top: 125px;
+}
+
+#desktop1 {
+	margin-top: 50px;
+}
+
+#apple, #android, #ios, #mobile, #windows, #forward, #cs, #devices, #test {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#apple:hover, #ios:hover, #mobile:hover, #windows:hover, #android:hover, #tv:hover, #forward:hover, #cs:hover, #devices:hover, #test:hover {
+	opacity: 0.7;
+}
+
+#en, #to, #tre, #fire, #fem, #seks, #syv, #otte {
+	margin-top: 75px;
+}
+
+#Devices {
+   position: absolute;
+   bottom: 35%;
+   text-align: center;
+   width: 100%;
+}
+
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+}
+
+input {
+	margin-top: 10px;
+	color: black;
+	display: inline;
+}
+
+.live-search-list {
+	margin-top: 75px;
+	display: inline;
+	padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 0px;
+}
+
+span {
+	margin-left: 100px;
+}
+
+/*li {text-align: left}*/
+
+#windows-page {
+	margin-top: 125px;
+}
+
+#full-list, #go-back {
+	background-color: #8AC058;
+	margin-right: 40px;
+}
+
+#go-back2 {
+	background-color: #8AC058;
+	margin-top: 300px;
+}
+
+#fulllist-content {
+	color: black;
+	display: inline;
+}
+
+#register {
+	margin-top: 75px;
+}
+
+.column-left{ float: left; width: 33%; 	text-align: left;}
+.column-center{ display: inline-block; width: 33%; }
+.column-right{ float: right; width: 33%; 	text-align: right;}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+/*#full-list {
+	position: absolute;
+	top: 174px;
+	right: 235px;*/
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+#apple, #android, #ios, #mobile, #windows, #forward, #cs, #devices, #test {
+	display: inline-block;
+	margin-left: 0px;
+	margin-bottom: 35px;
+	}
+
+#windows, #forward {
+	margin-left: 0px;
+	}
+
+#en, #to, #tre, #fire, #fem, #seks, #syv, #otte {
+	margin-top: 25px;
+	}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+#apple, #android, #ios, #mobile, #windows, #forward, #cs, #devices, #test {
+	display: inline-block;
+	margin-left: opx;
+	margin-bottom: 35px;
+	}
+
+#windows, #forward {
+	margin-left: 0px;
+	}
+
+#en, #to, #tre, #fire, #fem, #seks, #syv, #otte {
+	margin-top: 25px;
+	}
+}
